@@ -76,7 +76,7 @@ class Airplane(Transport):
         print(f"{self.brand} {self.model} пролетел {self.mileage} километров")
 
 
-t = Car("Chevrolet", "Bolt", 2020, "Blue", 18000, "electric")
+t = Car("Chevrolet", "Malibu", 2020, "Blue", 18000, "benzine")
 t.move(2000)
 
 f = Airplane("Boeing", "737-800 NG", 2013, "white/red", 230000, 54000)

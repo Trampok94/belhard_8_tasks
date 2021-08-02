@@ -10,7 +10,6 @@
 Время окончания: {end_time}
 Всего затрачено времени на выполнение: {end_time - start_time}
 """
-import time
 
 # start_time = time.time()
 # end_time = time.time()
@@ -63,6 +62,6 @@ class Phone:
         return new_tuple
 
 
-test = Phone('Samsung', 'A31', 2020)
+test = Phone('Samsung', 'A52', 2020)
 test.receive_call()
 test.get_info()
